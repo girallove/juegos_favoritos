@@ -1,26 +1,41 @@
 body {
+    background-color: #6a0dad; /* Fondo morado */
+    color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #E6E6FA; /* Morado claro */
-    text-align: center;
 }
 
 header {
-    background-color: #6A0DAD; /* Morado oscuro */
-    color: white;
-    padding: 20px 0;
+    background-color: #4a0072;
+    padding: 20px;
     font-size: 24px;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
 }
 
-.container {
-    width: 80%;
-    max-width: 900px;
-    margin: 20px auto;
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
+.juego {
+    background-color: #8a2be2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.juego img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
