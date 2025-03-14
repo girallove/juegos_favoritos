@@ -6,3 +6,21 @@ body {
     text-align: center;
 }
 
+header {
+    background-color: #6A0DAD; /* Morado oscuro */
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
